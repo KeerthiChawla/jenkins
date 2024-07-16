@@ -33,6 +33,10 @@ pipeline{
        success {
           slackSend channel: '#random', color: 'green', message: 'SUCCESS'
        }
+
+       failure {
+          slackSend channel: '#random', color: 'red', message: 'FAILURE'
+       }
    }
 
 
