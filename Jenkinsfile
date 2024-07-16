@@ -30,8 +30,8 @@ pipeline{
 
 
    post {
-       always {
-          slackSend channel: '#random', message: 'Hello'
+       success {
+          slackSend channel: '#random', color: 'green', message: 'SUCCESS'
        }
    }
 
