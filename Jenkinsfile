@@ -35,7 +35,7 @@ pipeline{
        }
 
        failure {
-          slackSend channel: '#random', color: 'danger', message: 'FAILURE'
+          slackSend color: 'danger', message: 'FAILURE'
        }
    }
 
