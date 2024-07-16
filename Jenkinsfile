@@ -23,7 +23,7 @@ pipeline{
               }
             }
             steps{
-                sh 'echo Hello World'
+                sh 'echo0 Hello World'
             }
         }
     }
