@@ -5,6 +5,9 @@ pipeline{
 //         label 'WORKSTATION'
 //     }
 // }
+   options { 
+        disableConcurrentBuilds() 
+    }
 
     environment {
          SAMPLE_URL = "google.com"
